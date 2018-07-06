@@ -1,0 +1,73 @@
+body {
+    justify-content: center
+}
+
+header {
+    height: 200px;
+    background-attachment: fixed;
+    background-color: chocolate;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+
+.card-front {
+    display: flex;
+    background-color: #fff;
+    height: 350px;
+    width: 350px;
+    border: 5px solid orange;
+    justify-content: space-between;
+    margin-left: 35%;
+    margin-top: 5%; 
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+  }
+
+  .card-back{
+    display: flex;
+    background-color: #fff;
+    height: 350px;
+    width: 350px;
+    border: 5px solid orange;
+    justify-content: space-between;
+    margin-left: 35%;
+    margin-top: 5%; 
+    
+  }
+
+  #FrontFlashcard {
+    box-sizing: content-box;    
+    width: 300px;
+    height: 100px;
+    padding: 30px;    
+    border: 10px solid blue;
+    display:none;
+    
+    
+}#BacktFlashcard {
+    box-sizing: content-box;    
+    width: 300px;
+    height: 100px;
+    padding: 30px;    
+    border: 10px solid blue;
+    display:none;
+    
+}
+div {
+    width: 300px;
+    padding: 40px;    
+    border: 15px solid blue;
+    justify-content: space-between;
+    margin-left: 35%;
+    margin-top: 5%; 
+    font-family: 'Courier New', Courier, monospace
+}
+button{
+    display: flex;
+    justify-content: center;
+
+}
